@@ -24,5 +24,6 @@ end
   #remember to return your newly altered contacts hash!
   contacts
 end
+end
 
 # a.delete_if {|x| x >= "b" }   #=> ["a"]
