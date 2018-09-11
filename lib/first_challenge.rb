@@ -15,8 +15,6 @@ def first_challenge
 contacts.each do |attribute, value|
   if attribute == :favorite_icecream_flavors
       value.delete_if {|flavor| flavor == "strawberry"}   # here, each index element in an ice cream flavor string
-
-
     end
   end
 end
@@ -24,6 +22,6 @@ end
   #remember to return your newly altered contacts hash!
   contacts
 end
-end
+
 
 # a.delete_if {|x| x >= "b" }   #=> ["a"]
